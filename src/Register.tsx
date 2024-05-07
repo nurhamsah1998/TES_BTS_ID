@@ -68,6 +68,13 @@ function Register() {
           Register
         </button>
       </form>
+      <button
+        onClick={() => nav("/login")}
+        style={{ marginTop: "10px" }}
+        type="submit"
+      >
+        Login
+      </button>
     </div>
   );
 }
