@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from "axios";
 
 const AXIOS: AxiosInstance = axios.create({
-  baseURL: `http://94.74.86.174:8080/api`,
+  baseURL: `${import.meta.env.BTS_ID_BASE_URL}`,
 });
 // Add a request interceptor
 AXIOS.interceptors.request.use(
